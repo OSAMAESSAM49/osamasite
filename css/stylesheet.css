@@ -1,0 +1,345 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Josefin Sans', sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+    background-color: white;
+    z-index: 999;
+    margin: 0;
+
+}
+.sticky {
+    position: fixed;
+  top: 0;
+  width: 100%
+}
+.logo {
+
+    color: #2b2b2c;
+    font-weight: 900;
+    font-size: 1.6em;
+    text-decoration: none;
+
+}
+ 
+
+
+.nav-item{
+    color: #2b2b2c;
+    font-weight: 700;
+    font-size: 1em;
+    text-decoration: none;
+    padding-left: 20px;
+
+
+}
+
+.nav-item:hover{
+
+    color:#7270F8;
+}
+
+.cover {
+
+background: url(https://cdn.dribbble.com/userupload/4776802/file/original-1e491c70efde30e9e70ee2361f448fcd.png?compress=1&resize=1504x1070);  min-height: 120vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+  
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+    
+
+}
+
+h1{
+
+ font-size: 30px;
+font-weight: 900;
+padding:800px 0 0 200px;
+display: flex;
+align-items: start;
+justify-items: start;
+padding-top: 8em;
+
+}
+
+h2{
+    font-size: 100px;
+    font-weight: 900;
+    padding-left: 200px;
+}
+
+   .dent{
+        background-color: #7270F8;
+        color: white;
+        width: fit-content;
+        padding-right: 20px;
+        padding-top: 20px;
+        border-radius:0 10px 10px 0px;
+
+    }
+p{
+
+    padding-left: 200px;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 2px;
+    
+}
+
+
+.main-btn {
+    text-decoration: none;
+    color: white;
+    background-color: #2b2b2c;
+    font-size: 1.5em;
+    font-weight: 600;
+    width: fit-content;
+    display: inline-block;
+    padding : .5em .8em ;
+    margin-left: 200px;
+    margin-top: 40px;
+    border-radius: 10px;
+    letter-spacing: 0px;
+}
+
+.main-btn:hover {
+
+    color: white;
+    transform: scale(1.1);
+    background-color: #040426;
+    transition: ease;
+    transition-duration: 1s;
+    
+}
+
+.fa-phone{
+    padding-right: 15px;
+}
+
+h2.skill-head {
+    padding-left: 0px;
+    display: flex;
+    justify-content: start;
+    padding-left: 200px;
+    padding-top: 50px;
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 900;
+    background-color: #7270F8;
+    margin: 0;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #7270F8;
+
+
+    
+}
+
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 2s ease ;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    
+}
+
+.card{
+    background-color: white;
+    width: 21.25em;
+    box-shadow:0 2px 15px #79797a;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 25px;
+    margin: 50px;
+    border: #0b0b0b solid 2px;
+}
+
+
+.pdentist{ 
+    padding-left: 0;
+    color: #040426;
+}
+
+
+
+   .icon{
+
+    font-size: 1.5em ;
+    color: #7270F8;
+    text-align: center;
+    
+   }
+
+   h3{
+    padding-top: 20px;
+    font-weight: 900;
+   }
+
+
+   
+
+   
+   
+   
+   .container-fluid{
+
+    background-color: #0b0b0b;
+    padding-bottom: 50px;
+   }
+
+.portfolio-head{
+
+    background-color: #0b0b0b;
+    color: white;
+    padding: 0;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 60px;
+    margin: 0px;
+font-size: 60px;
+padding-left: 200px;
+}
+
+
+.projects-head{
+    padding-left: 0;
+    padding-top: 40px;
+    text-align: left;
+    padding-left: 200px;
+    font-size: 60px;
+    background-color: #7270F8;
+    padding-bottom: 40px;
+    color: white;
+    margin: 0;
+    color: #ffffff;
+}
+   
+ 
+
+    .carousel {
+        border: #7270F8 solid 2px;
+       
+    }
+
+  .portfolio-p {
+    margin: 0px;
+    color: white;
+    background-color: #0b0b0b;
+    display: flex;
+    justify-self: start;
+    padding-bottom: 60px;
+    padding-left: 200px;
+  }
+   
+.projects{
+
+    background-color: #7270F8;
+    height: auto;
+    padding-bottom: 0px;
+
+}
+  
+
+ .projects-head{
+    padding-bottom: 0;
+ }
+
+  .project-p{
+    background-color: #7270F8;
+    color: #ffffff;
+    margin: 0px;
+    padding-bottom: 0;
+
+    
+
+  }
+
+  .app{
+
+    width: 100%;
+    height: auto;
+  }
+
+
+  .card-title{
+
+    font-weight: 900;
+
+  }
+
+
+  .card-text{
+    padding-left: 0px;
+    font-size: smaller;
+    padding-bottom: 50px;
+  }
+
+  #app{
+    background-color: #7270F8;
+
+
+    
+  }
+
+  #appcard{
+    border:  none;
+  
+   
+
+   
+  }
+
+  .cards-2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+  }
+
+  .footer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10px;
+    background-color: #0b0b0b;
+    color:white;
+    padding-top: 10px;
+  }
+
+  h6{
+    font-size: larger;
+    color: white;
+font-weight: 500;
+text-align: left;}
+
+.social-icons{
+    font-size: larger;
+    padding-left: 400px;
+}
+
+
+.oo{
+    padding-left: 20px;
+}
